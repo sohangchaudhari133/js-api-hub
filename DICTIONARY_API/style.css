@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #98d8d3;
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+#search-inp {
+    display: block;
+    width: 70%;
+    padding: 0 5px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #0af2df;
+}
+
+#search-btn {
+    color: #fff;
+    background-color: #1fbaad;
+    padding: 20px 0;
+    width: 22%;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.result {
+    margin-top: 70px;
+}
+
+.word {
+    display: flex;
+    justify-content: space-between;
+}
+
+.word h3 {
+    font-size: 40px;
+}
+
+.word button {
+    font-size: 30px;
+    border: 0;
+    color: #1fbaad;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.explain {
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: darkgray;
+}
+
+#word-meaning {
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(101, 100, 100);
+    font-weight: 500;
+}
+
+#word-explain {
+    margin: 25px 0;
+    border-left: 5px solid #0af2df;
+    padding: 10px 0;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(64, 63, 63);
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
